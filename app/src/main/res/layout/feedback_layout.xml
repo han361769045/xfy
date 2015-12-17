@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent"
+
+              android:orientation="vertical">
+
+    <com.zczczy.by.xfy.viewgroup.MyTitleView_
+        android:id="@+id/title"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+    </com.zczczy.by.xfy.viewgroup.MyTitleView_>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:background="#f0f0f0"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:focusable="true"
+                android:focusableInTouchMode="true"
+                android:layout_width="match_parent"
+                android:layout_height="200dp"
+                android:layout_marginRight="20dp"
+                android:layout_marginLeft="20dp"
+                android:orientation="horizontal"
+                android:layout_marginTop="40dp"
+                android:id="@+id/ll_feedback_info"
+                >
+
+                <EditText
+                    android:id="@+id/edit_feedback"
+                    android:hint="您遇到什么系统问题啦,或有什么功能建议吗?欢迎您提给我们,谢谢!"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:textColorHint="#ececec"
+                    android:textSize="15dp"
+                    android:textColor="#cccccc"
+                    android:background="@drawable/edit_prd_background"
+                    android:gravity="top"/>
+
+
+            </LinearLayout>
+
+            <Button
+                android:id="@+id/btn_tijiao"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginBottom="10dp"
+                android:layout_marginLeft="85dp"
+                android:layout_marginRight="85dp"
+                android:layout_marginTop="40dp"
+                android:background="@drawable/submit_button_selector"
+                android:text="提交"
+                android:textColor="@android:color/white"
+                android:textSize="16sp" />
+
+
+
+        </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>

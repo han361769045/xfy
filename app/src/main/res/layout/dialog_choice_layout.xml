@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="bottom"
+    android:padding="20.0dip" >
+
+    <Button
+        android:id="@+id/btn_d1"
+        android:layout_width="match_parent"
+        android:layout_height="48.0dip"
+        android:background="@drawable/white_circle_five_background"
+        android:textColor="@color/orange_to_white_selector_textcolor"
+        android:text="测试"
+        android:textSize="18.0sp" />
+
+    <Button
+        android:id="@+id/btn_d2"
+        android:layout_width="match_parent"
+        android:layout_height="48.0dip"
+        android:layout_marginTop="10.0dip"
+        android:background="@drawable/white_circle_five_background"
+        android:textColor="@color/orange_to_white_selector_textcolor"
+         android:text="测试"
+        android:textSize="18.0sp" />
+
+    <Button
+        android:id="@+id/btn_d3"
+        android:layout_width="match_parent"
+        android:layout_height="48.0dip"
+        android:layout_marginTop="10.0dip"
+        android:background="@drawable/white_circle_five_background"
+         android:text="测试"
+        android:textColor="@color/color_purple_33"
+        android:textSize="18.0sp" />
+
+</LinearLayout>

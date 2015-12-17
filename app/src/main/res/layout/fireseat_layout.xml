@@ -1,0 +1,224 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:background="#ffffff"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <com.zczczy.by.xfy.viewgroup.MyTitleLeftView_
+        android:id="@+id/title"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+    </com.zczczy.by.xfy.viewgroup.MyTitleLeftView_>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        >
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+            <RadioGroup
+                android:id="@+id/rg_rg"
+                android:background="@color/white"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center_horizontal"
+                android:orientation="horizontal"
+                android:layout_marginTop="5dp">
+                <RadioButton
+                    android:id="@+id/txt_nosolve"
+                    android:layout_width="wrap_content"
+                    android:layout_height="25dp"
+                    android:button="@null"
+                    android:checked="true"
+                    android:layout_weight="1"
+                    android:layout_marginLeft="110dp"
+                    android:gravity="center"
+                    android:background="@drawable/radiobuttonbg"
+                    android:textColor="@color/perfect_checkbox_selector"
+                    android:text="未处理"
+                    android:textSize="15dp"
+                    />
+
+                <RadioButton
+                    android:id="@+id/txt_solve"
+                    android:layout_width="wrap_content"
+                    android:layout_height="25dp"
+                    android:button="@null"
+                    android:gravity="center"
+                    android:layout_weight="1"
+                    android:layout_marginRight="110dp"
+                    android:background="@drawable/radionbuttonfalse"
+                    android:text="已处理"
+                    android:textColor="@color/perfect_checkbox_selector"
+                    android:textSize="15dp"
+                    android:checked="false" />
+
+            </RadioGroup>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="1px"
+                android:layout_gravity="center_vertical"
+                android:gravity="right"
+                android:background="#d4d4d4"
+                android:layout_weight="0.2">
+
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:background="#f5f5f5"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:id="@+id/ll_nosolve"
+                android:visibility="visible"
+                >
+
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_vertical"
+                    android:layout_weight="1">
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:textSize="16dp"
+                        android:gravity="center_horizontal"
+                        android:text="报警时间" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_vertical"
+                    android:layout_weight="1">
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:textSize="16dp"
+                        android:gravity="center_horizontal"
+                        android:text="探头位置" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_vertical"
+                    android:layout_weight="1">
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:textSize="16dp"
+                        android:gravity="center_horizontal"
+                        android:text="处理结果" />
+                </LinearLayout>
+
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:background="#f5f5f5"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:id="@+id/ll_solve"
+                android:visibility="gone"
+                >
+
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_vertical"
+                    android:layout_weight="1">
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:textSize="16dp"
+                        android:gravity="center_horizontal"
+                        android:text="处理时间" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_vertical"
+                    android:layout_weight="1">
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:textSize="16dp"
+                        android:gravity="center_horizontal"
+                        android:text="探头位置" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_vertical"
+                    android:layout_weight="1">
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:textSize="16dp"
+
+                        android:gravity="center_horizontal"
+                        android:text="处理结果" />
+                </LinearLayout>
+
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="1px"
+                android:layout_gravity="center_vertical"
+                android:gravity="right"
+                android:background="#d4d4d4"
+                android:layout_weight="0.2">
+
+
+            </LinearLayout>
+        </LinearLayout>
+
+
+    </LinearLayout>
+    <com.zczczy.by.xfy.viewgroup.NoDataView_
+        android:id="@+id/no_data"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@+id/title"
+        />
+    <com.zczczy.by.xfy.viewgroup.NoNetView_
+        android:id="@+id/no_net"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@+id/no_data"
+        android:visibility="gone"/>
+
+    <com.zczczy.by.xfy.pullableview.PullToRefreshLayout
+        android:id="@+id/refresh_view"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@+id/no_net"
+        android:background="@color/background_color">
+
+        <include layout="@layout/refresh_head"/>
+        <!-- 支持所有实现Pullable接口的View -->
+
+        <com.zczczy.by.xfy.pullableview.PullableListView
+            android:id="@+id/lv_list"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:divider="@null">
+
+        </com.zczczy.by.xfy.pullableview.PullableListView>
+
+        <include layout="@layout/load_more"/>
+
+    </com.zczczy.by.xfy.pullableview.PullToRefreshLayout>
+
+
+</LinearLayout>

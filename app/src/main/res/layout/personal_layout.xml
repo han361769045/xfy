@@ -1,0 +1,264 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:orientation="vertical"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent"
+    >
+    <com.zczczy.by.xfy.viewgroup.MyTitleView_
+        android:id="@+id/title"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        >
+    </com.zczczy.by.xfy.viewgroup.MyTitleView_>
+
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#f5f5f5"
+        android:scrollbars="none">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" >
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="200dp"
+                android:background="#00acec"
+                android:gravity="center"
+                android:orientation="vertical" >
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:background="@mipmap/loginlogo"
+                    />
+
+                <TextView
+                    android:id="@+id/txt_name"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="10dp"
+                    android:textColor="#ffffff"
+                    android:text=""
+                    android:textSize="18sp" />
+
+
+            </LinearLayout>
+
+
+            <LinearLayout
+                android:id="@+id/ll_info"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical" >
+
+                <RelativeLayout
+                    android:id="@+id/rl_message"
+                    android:layout_width="match_parent"
+                    android:layout_height="60dp"
+                    android:background="#ffffff"
+                    android:padding="5dp" >
+
+                    <TextView
+                        android:id="@+id/message"
+                        android:layout_width="wrap_content"
+                        android:layout_height="50dp"
+                        android:layout_marginLeft="10dp"
+                        android:drawableLeft="@mipmap/mymessage"
+                        android:drawablePadding="10dp"
+                        android:gravity="center_vertical"
+                        android:text="我的消息"
+                        android:textColor="#000000" />
+
+                    <ImageView
+                        android:layout_width="wrap_content"
+                        android:layout_height="50dp"
+                        android:layout_alignParentRight="true"
+                        android:layout_marginRight="10dp"
+                        android:contentDescription=""
+                        android:drawablePadding="10dp"
+                        android:src="@mipmap/rightlogo" />
+                </RelativeLayout>
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="1dp"
+                    android:layout_gravity="center_vertical"
+                    android:gravity="right"
+                    android:background="#d4d4d4"
+                    android:layout_weight="0.2">
+
+
+                </LinearLayout>
+
+
+                <RelativeLayout
+                    android:id="@+id/rl_equip"
+                    android:layout_width="match_parent"
+                    android:layout_height="60dp"
+                    android:background="#ffffff"
+                    android:padding="5dp" >
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="50dp"
+                        android:layout_marginLeft="10dp"
+                        android:drawableLeft="@mipmap/myequipment"
+                        android:drawablePadding="10dp"
+                        android:gravity="center_vertical"
+                        android:text="我的设备"
+                        android:textColor="#000000" />
+
+                    <ImageView
+                        android:layout_width="wrap_content"
+                        android:layout_height="50dp"
+                        android:layout_alignParentRight="true"
+                        android:layout_marginRight="10dp"
+                        android:contentDescription="@string/unuse"
+                        android:drawablePadding="10dp"
+                        android:src="@mipmap/rightlogo"  />
+                </RelativeLayout>
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="1dp"
+                    android:layout_gravity="center_vertical"
+                    android:gravity="right"
+                    android:background="#d4d4d4"
+                    android:layout_weight="0.2">
+
+                </LinearLayout>
+
+
+                <RelativeLayout
+                    android:id="@+id/rl_changepw"
+                    android:layout_width="match_parent"
+                    android:layout_height="60dp"
+                    android:background="#ffffff"
+                    android:padding="5dp" >
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="50dp"
+                        android:layout_marginLeft="10dp"
+                        android:drawableLeft="@mipmap/setup"
+                        android:drawablePadding="10dp"
+                        android:gravity="center_vertical"
+                        android:text="修改密码"
+                        android:textColor="#000000" />
+
+                    <ImageView
+                        android:layout_width="wrap_content"
+                        android:layout_height="50dp"
+                        android:layout_alignParentRight="true"
+                        android:layout_marginRight="10dp"
+                        android:contentDescription="@string/unuse"
+                        android:drawablePadding="10dp"
+                        android:src="@mipmap/rightlogo"  />
+                </RelativeLayout>
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="1dp"
+                    android:layout_gravity="center_vertical"
+                    android:gravity="right"
+                    android:background="#d4d4d4"
+                    android:layout_weight="0.2">
+
+                </LinearLayout>
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="20dp"
+                    android:background="#f5f5f5">
+
+                </LinearLayout>
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="1dp"
+                    android:layout_gravity="center_vertical"
+                    android:gravity="right"
+                    android:background="#d4d4d4"
+                    android:layout_weight="0.2">
+
+                </LinearLayout>
+
+                <!--<RelativeLayout-->
+
+                    <!--android:id="@+id/rl_perfect_information"-->
+                    <!--android:layout_width="match_parent"-->
+                    <!--android:layout_height="60dp"-->
+                    <!--android:background="#ffffff"-->
+                    <!--android:padding="5dp" >-->
+
+                    <!--<TextView-->
+                        <!--android:layout_width="wrap_content"-->
+                        <!--android:layout_height="50dp"-->
+                        <!--android:layout_marginLeft="15dp"-->
+                        <!--android:drawablePadding="10dp"-->
+                        <!--android:gravity="center_vertical"-->
+                        <!--android:text="@string/txt_feedback"-->
+                        <!--android:textColor="#000000" />-->
+
+                    <!--<ImageView-->
+                        <!--android:layout_width="wrap_content"-->
+                        <!--android:layout_height="50dp"-->
+                        <!--android:layout_alignParentRight="true"-->
+                        <!--android:layout_marginRight="10dp"-->
+                        <!--android:contentDescription="@string/unuse"-->
+                        <!--android:drawablePadding="10dp"-->
+                        <!--android:src="@mipmap/rightlogo" />-->
+                <!--</RelativeLayout>-->
+                <!--<LinearLayout-->
+                    <!--android:layout_width="match_parent"-->
+                    <!--android:layout_height="1dp"-->
+                    <!--android:layout_gravity="center_vertical"-->
+                    <!--android:gravity="right"-->
+                    <!--android:background="#d4d4d4"-->
+                    <!--android:layout_weight="0.2">-->
+
+                <!--</LinearLayout>-->
+
+                <RelativeLayout
+                    android:id="@+id/rl_exit"
+                    android:layout_width="match_parent"
+                    android:layout_height="60dp"
+                    android:background="#ffffff"
+                    android:padding="5dp" >
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="50dp"
+                        android:layout_marginLeft="15dp"
+                        android:drawablePadding="10dp"
+                        android:gravity="center_vertical"
+                        android:drawableLeft="@mipmap/logout"
+                        android:text="注销"
+                        android:textColor="#000000" />
+
+                    <ImageView
+                        android:layout_width="wrap_content"
+                        android:layout_height="50dp"
+                        android:layout_alignParentRight="true"
+                        android:layout_marginRight="10dp"
+                        android:contentDescription="@string/unuse"
+                        android:drawablePadding="10dp"
+                        android:src="@mipmap/rightlogo" />
+                </RelativeLayout>
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="1dp"
+                    android:layout_gravity="center_vertical"
+                    android:gravity="right"
+                    android:background="#d4d4d4"
+                    android:layout_weight="0.2">
+
+                </LinearLayout>
+            </LinearLayout>
+
+
+        </LinearLayout>
+    </ScrollView>
+
+
+
+</LinearLayout>

@@ -1,0 +1,41 @@
+package com.zczczy.by.xfy.pullableview;
+
+import android.content.Context;
+import android.util.AttributeSet;
+import android.widget.ImageView;
+
+/**
+ * Created by leo on 2015/6/2.
+ */
+public class PullableImageView extends ImageView implements Pullable
+{
+
+    public PullableImageView(Context context)
+    {
+        super(context);
+    }
+
+    public PullableImageView(Context context, AttributeSet attrs)
+    {
+        super(context, attrs);
+    }
+
+    public PullableImageView(Context context, AttributeSet attrs, int defStyle)
+    {
+        super(context, attrs, defStyle);
+    }
+
+    @Override
+    public boolean canPullDown()
+    {
+        return true;
+    }
+
+    @Override
+    public boolean canPullUp()
+    {
+        return true;
+    }
+
+}
+

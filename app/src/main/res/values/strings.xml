@@ -1,0 +1,54 @@
+<resources>
+    <string name="app_name">86消防云</string>
+
+
+    <string name="no_net">网络连接失败</string>
+    <string name="txt_username">用户名</string>
+    <string name="txt_password">密码</string>
+    <string name="txt_login">登录</string>
+    <string name="config">确定</string>
+    <string name="cancel">取消</string>
+
+    <!-- main -->
+    <string name="txt_home">首页</string>
+    <string name="txt_message">火警信息</string>
+    <string name="txt_contact">巡检查岗</string>
+    <string name="txt_seat">故障座席</string>
+
+  <!--home -->
+
+    <string name="unuse">没用</string>
+
+    <!--center -->
+    <string name="txt_center">个人中心</string>
+    <string name="txt_mymessage">我的消息</string>
+    <string name="txt_myequipment">我的设备</string>
+    <string name="txt_set">设置</string>
+    <string name="txt_feedback">反馈意见给我们</string>
+    <string name="txt_payattention">关注86消防云</string>
+
+
+    <string name="pull_to_refresh">下拉刷新</string>
+    <string name="release_to_refresh">释放立即刷新</string>
+    <string name="refreshing">正在刷新...</string>
+    <string name="refresh_succeed">刷新成功</string>
+    <string name="refresh_fail">刷新失败</string>
+    <string name="pullup_to_load">上拉加载更多</string>
+    <string name="release_to_load">释放立即加载</string>
+    <string name="loading">正在加载...</string>
+    <string name="load_succeed">加载成功</string>
+    <string name="load_fail">加载失败</string>
+
+    <!--在线申请 -->
+    <string name="txt_companyname">公司名称:</string>
+    <string name="txt_local">公司所在地:</string>
+    <string name="txt_contactperson">联系人:</string>
+    <string name="txt_contactphone">联系电话:</string>
+    <string name="txt_email">电子邮件:</string>
+    <string name="txt_submit">提交申请</string>
+    <string name="txt_join">申请代理区域:</string>
+    <string name="txt_joinagent">加盟代理</string>
+    <string name="txt_online">在线申请</string>
+
+
+</resources>

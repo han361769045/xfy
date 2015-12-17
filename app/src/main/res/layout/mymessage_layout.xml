@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white">
+
+    <com.zczczy.by.xfy.viewgroup.MyTitleView_
+        android:id="@+id/title"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"></com.zczczy.by.xfy.viewgroup.MyTitleView_>
+    <com.zczczy.by.xfy.viewgroup.NoDataView_
+        android:id="@+id/no_data"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@+id/title"
+        android:visibility="gone" />
+    <com.zczczy.by.xfy.viewgroup.NoNetView_
+        android:id="@+id/no_net"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@+id/no_data"
+        android:visibility="gone" />
+    <ListView
+        android:id="@+id/lv_list"
+        android:layout_below="@+id/no_data"
+        android:layout_width="match_parent"
+        android:divider="@null"
+        android:layout_height="wrap_content">
+    </ListView>
+
+</RelativeLayout>

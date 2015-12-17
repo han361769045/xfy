@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:layout_width="match_parent"
+              android:orientation="horizontal"
+              android:layout_height="50dp">
+    <RelativeLayout
+        android:id="@+id/ps_msg"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#00acec"
+        android:orientation="horizontal" >
+
+        <LinearLayout
+            android:id="@+id/img_back"
+            android:layout_width="100dp"
+            android:layout_height="match_parent"
+            android:layout_alignParentLeft="true"
+            android:clickable="true"
+             >
+
+
+            <ImageView
+                android:id="@+id/i_bg"
+                android:layout_width="30dp"
+                android:layout_marginLeft="20dp"
+                android:layout_height="match_parent"
+                android:contentDescription="@string/unuse"
+                android:src="@mipmap/personnalcenter" />
+        </LinearLayout>
+
+        <TextView
+            android:id="@+id/tv_title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_centerVertical="true"
+            android:textColor="#ffffff"
+            android:textSize="18sp"
+            android:text="首页"
+            android:textStyle="bold" />
+
+        <LinearLayout
+            android:id="@+id/ll_other"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_alignParentRight="true"
+            android:layout_marginRight="20dp"
+
+            android:clickable="true"
+            android:gravity="center" >
+            <ImageView
+                android:id="@+id/in_bg"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:contentDescription="@string/unuse"
+                 />
+        </LinearLayout>
+    </RelativeLayout>
+
+
+</LinearLayout>

@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <color name="color_bai">#ffffffff</color>
+    <color name="color_black_33">#ff333333</color>
+    <color name="color_orange">#fffd482c</color>
+    <color name="color_purple_33">#ff333b69</color>
+    <color name="transparent">#00000000</color>
+    <color name="cb">#ffcbcbcb</color>
+    <color name="cc">#ff727272</color>
+    <color name="gray_true">#fff2f1ec</color>
+    <color name="line_divider_cl">#00000000</color>
+
+    <!-- common  -->
+    <color name="background_color">#f5f5f5</color>
+    <color name="repair_background_color">#d1d1d1</color>
+    <color name="white_color">#ffffff</color>
+    <color name="major_color">#3392e4</color>
+    <color name="major_text_color">#525252</color>
+    <color name="sub_text_color">#888888</color>
+
+    <color name="white">#FFFFFF</color>
+    <color name="black">#333333</color>
+    <color name="gray">#aaaaaa</color>
+    <color name="green">#00FF00</color>
+    <color name="light_orange">#f6cc6c</color>
+    <color name="light_blue">#6593cb</color>
+
+    <color name="light_gray">#d6d6d6</color>
+    <color name="login_gray">#bebbb4</color>
+    <color name="line_layout">#e6e6e6</color>
+    <color name="layout_gray">#d6d4d5</color>
+
+    <!--act-->
+    <color name="light_yellow">#fffbf2</color>
+    <color name="font_gray">#757575</color>
+    <color name="layout_border">#cccccc</color>
+
+    <color name="botton_gray">#f1f1f1</color>
+</resources>

@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item >
+        <layer-list>
+            <!-- 相当于padding -->
+            <item>
+                <shape>
+                    <solid android:color="#00acec" />
+                    <corners android:radius="8dp" />
+                    <stroke android:dashGap="0dp" android:width="2dp" android:color="#00acec" />
+                    <padding android:bottom="10dp" android:left="10dp" android:right="10dp" android:top="10dp" />
+                </shape>
+               </item>
+        	</layer-list>
+        </item>
+</selector>
