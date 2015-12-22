@@ -4,6 +4,7 @@ import android.content.Intent;
 import android.net.Uri;
 import android.view.View;
 import android.widget.Button;
+import android.widget.ImageView;
 import android.widget.LinearLayout;
 import android.widget.RelativeLayout;
 import android.widget.TextView;
@@ -37,14 +38,14 @@ public class HomeFragment extends  BaseFragment {
     @ViewById
     MyTitleLeftView title;
     @ViewById
-    Button btn_online,btn_joinin;
+    ImageView btn_online,btn_joinin;
     @StringRes
     String txt_home;
     @ViewById
     LinearLayout img_back;
 
     @ViewById
-    TextView txt_phone;
+    ImageView txt_phone;
     @Bean
     MessageDao messageDao;
     @StringRes
